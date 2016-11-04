@@ -1,7 +1,5 @@
 package io.github.sultanofcardio.githubpagesmessages.activities;
 
-//    TODO: change package name above, as well as on all your Java files
-
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +17,7 @@ implements SwipeRefreshLayout.OnRefreshListener, AsyncResponse{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Call various methods here. We use method instead of writing code directly here
+        //Call various methods here. We use methods instead of writing code directly here
         //for better readability
     }
 

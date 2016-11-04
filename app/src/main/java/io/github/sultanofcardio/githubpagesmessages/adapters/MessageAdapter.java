@@ -22,14 +22,12 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageH
     private List<Message> messages;
 
     public MessageAdapter(){
-        //TODO: Initialize the list here
-
         messages = Message.listAll(Message.class);
     }
 
     @Override
     public MessageHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        //TODO: return an instance of the ViewHolder with the view inflated
+        //TODO: Return an instance of the ViewHolder with the view inflated
 
         return null;
     }

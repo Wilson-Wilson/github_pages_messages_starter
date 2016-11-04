@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.sultanofcardio.githubpagesmessages">
 
-    <!--TODO: Change package name above-->
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -36,10 +34,8 @@
             android:value="false" />
         <meta-data
             android:name="DOMAIN_PACKAGE_NAME"
-            android:value="<package_name>.githubpagesmessages" />
-
-        <!--TODO: Enter your package name above-->
-
+            android:value="io.github.sultanofcardio.githubpagesmessages" />
+            
         <!--END SUGAR META-DATA-->
 
     </application>
