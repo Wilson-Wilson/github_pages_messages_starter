@@ -41,7 +41,7 @@
             android:layout_centerInParent="true"
             android:textSize="32sp"
             android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-            tools:text="No Messages"/>
+            android:text="No Messages"/>
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

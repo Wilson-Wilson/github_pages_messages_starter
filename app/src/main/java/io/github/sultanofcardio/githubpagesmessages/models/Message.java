@@ -5,6 +5,18 @@ import com.orm.SugarRecord;
 /**
  * @author sultanofcardio
  *
+ * This class represents our only model for the application. It has
+ * member variables that match the fields in our HTML form and methods
+ * to access and mutate them.
+ *
+ * This class extends a class called SugarRecord. A SugarRecord is also
+ * a model but one that is not defined in this project. It basically gives
+ * us a Java representation for an entry in a database. It has convenience 
+ * methods such as save, findById, delete and so on.
+ *
+ * We extend that class because we want our Message model to also be such a 
+ * representation and have access to these methods.
+ *
  * This class has been written for you
  */
 
