@@ -35,7 +35,7 @@ import io.github.sultanofcardio.githubpagesmessages.models.AsyncResponse;
  * about that here:
  * https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjZ9dXU_pnQAhVDzGMKHWFzCzIQFggaMAA&url=https%3A%2F%2Fdeveloper.android.com%2Ftraining%2Fbasics%2Factivity-lifecycle%2Findex.html&usg=AFQjCNFlcWWid-ENI1MzFNEfDK-8srWePA&sig2=rl5Efy8X_xhNG-cxaHRBEg&bvm=bv.138169073,d.eWE
  *
- * The good news is that these are all methods we can override! such as on line 56 
+ * The good news is that these are all methods we can override! such as on line 58 
  * of this class where we override the onCreate() method. This is the first method 
  * in the lifecycle and so is an ideal place to put some code that we want to be 
  * run when the activity is created by the OS. This is the only lifecycle method we
